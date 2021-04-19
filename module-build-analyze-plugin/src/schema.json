@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+      "spendTime": {
+          "description": "spend time",
+          "type": "number"
+      }
+  },
+  "additionalProperties": false
+}

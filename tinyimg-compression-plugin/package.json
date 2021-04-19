@@ -1,0 +1,20 @@
+{
+  "name": "tinyimg-compression-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index"
+  },
+  "author": "kim",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "figures": "^3.2.0",
+    "ora": "^5.4.0",
+    "schema-utils": "^3.0.0"
+  }
+}

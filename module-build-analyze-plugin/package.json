@@ -1,0 +1,24 @@
+{
+  "name": "module-build-analyze-plugin",
+  "version": "1.0.0",
+  "description": "module build analyze webpack plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "module",
+    "build"
+  ],
+  "author": "kim",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "figures": "^3.2.0",
+    "ora": "^5.4.0",
+    "schema-utils": "^3.0.0",
+    "single-line-log": "^1.1.2"
+  }
+}
