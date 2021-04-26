@@ -1,7 +1,11 @@
 const Ora = require("ora")
 const {validate} = require('schema-utils')
-const { PLUGIN_NAME, IMG_REGEXP,compressImg } = require('../util/index')
+const { PLUGIN_NAME, IMG_REGEXP,compressImg } = require('../util/index.js')
 const Schema = require('./schema.json')
+// import Ora from 'ora'
+// import {validate} from 'schema-utils'
+// import { PLUGIN_NAME, IMG_REGEXP,compressImg } from '../util/index.js'
+// import Schema from './schema.json'
 
 class TinyimgCompressionPlugin {
 	constructor(opts) {

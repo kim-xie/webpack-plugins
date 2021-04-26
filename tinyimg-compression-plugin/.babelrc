@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "useBuiltIns": "usage",
+        "corejs": {"version": "3"},
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+      // 解决多个地方使用相同代码导致打包重复的问题
+      ["@babel/plugin-transform-runtime"]
+  ],
+  "ignore": [
+      "node_modules/**"
+    ]
+}
